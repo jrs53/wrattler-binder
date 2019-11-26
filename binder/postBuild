@@ -47,6 +47,9 @@ cd ../jupyterlab_wrattler/
 #jlpm run build
 jupyter labextension install .
 
+# install the Kepler.gl JupyterLab extension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
+
 # use the local setup.py package to define entrypoints for jupyter server proxy.
 cd ../../
 pip install .
